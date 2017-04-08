@@ -26,7 +26,7 @@ namespace ParkingSystem
 
         private void LoginButton(object sender, RoutedEventArgs e)
         {
-            Vigilancia vigilancia = new Vigilancia();
+            Administrador vigilancia = new Administrador();
             App.Current.MainWindow = vigilancia;
             this.Close();
             vigilancia.Show();
