@@ -9,14 +9,12 @@
                 <!-- Order is important -->
                 <ResourceDictionary Source="Styles/Colors.xaml" />
                 <ResourceDictionary Source="Styles/Fonts.xaml" />
-                <ResourceDictionary Source="Styles/Buttons.xaml" />
-                <ResourceDictionary Source="Styles/Texts.xaml" />
                 <ResourceDictionary Source="Styles/Windows.xaml" />
             </ResourceDictionary.MergedDictionaries>
             <Style x:Key="VerticalSeparatorStyle" 
                 TargetType="{x:Type Separator}"
                 BasedOn="{StaticResource {x:Type Separator}}">
-                <Setter Property="Margin" Value="6,0,6,0"/>
+                <Setter Property="Margin" Value="3,0,6,0"/>
                 <Setter Property="LayoutTransform">
                     <Setter.Value>
                         <TransformGroup>
@@ -26,6 +24,104 @@
                                 </TransformCollection>
                             </TransformGroup.Children>
                         </TransformGroup>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+            <Style x:Key="minibutonlar" TargetType="Button">
+                <Setter Property="Foreground" Value="#FF787878"/>
+                <Setter Property="Width" Value="35"/>
+                <Setter Property="FontSize" Value="9"/>
+                <Setter Property="FontWeight" Value="Bold"/>
+                <Setter Property="Background" Value="White"/>
+                <Setter Property="BorderThickness" Value="0,0,0,0"/>
+
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Border Name="border" BorderThickness="0,0,0,0" BorderBrush="#FF8F8F8F" Background="White">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter TargetName="border" Property="BorderBrush" Value="White"/>
+                                    <Setter TargetName="border" Property="Background" Value="#FF0F2E80"/>
+                                    <Setter Property="Foreground" Value="White"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+            <Style x:Key="menubutonlar" TargetType="Button">
+                <Setter Property="Foreground" Value="#FF787878"/>
+                <Setter Property="Margin" Value="0,0,0,1"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Border Name="border" BorderThickness="0,0,0,0" BorderBrush="{x:Null}" Background="{x:Null}">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter TargetName="border" Property="BorderBrush" Value="#2b5493"/>
+                                    <Setter TargetName="border" Property="Background" Value="#2b5493"/>
+                                    <Setter TargetName="border" Property="BorderThickness" Value="5,0,0,0"/>
+                                    <Setter Property="Foreground" Value="White"/>
+                                </Trigger>
+
+                                <Trigger Property="IsFocused" Value="True">
+                                    <Setter TargetName="border" Property="BorderBrush" Value="#ffa800"/>
+                                    <Setter TargetName="border" Property="Background" Value="#FF0F2E80"/>
+                                    <Setter TargetName="border" Property="BorderThickness" Value="5,0,0,0"/>
+                                    <Setter Property="Foreground" Value="White"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+            <Style x:Key="buttonCustom" TargetType="Button">
+                <Setter Property="Foreground" Value="#fff"/>
+                <Setter Property="Margin" Value="0,0,0,1"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="Button">
+                            <Border Name="border" CornerRadius="5" BorderThickness="0,0,0,0" BorderBrush="{x:Null}" Background="#ffa800">
+                                <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                            </Border>
+                            <ControlTemplate.Triggers>
+                                <Trigger Property="IsMouseOver" Value="True">
+                                    <Setter TargetName="border" Property="BorderBrush" Value="#2b5493"/>
+                                    <Setter TargetName="border" Property="Background" Value="#2b5493"/>
+                                    <Setter TargetName="border" Property="BorderThickness" Value="5,0,0,0"/>
+                                    <Setter Property="Foreground" Value="White"/>
+                                </Trigger>
+
+                                <Trigger Property="IsFocused" Value="True">
+                                    <Setter TargetName="border" Property="BorderBrush" Value="White"/>
+                                    <Setter TargetName="border" Property="Background" Value="#FF0F2E80"/>
+                                    <Setter TargetName="border" Property="BorderThickness" Value="5,0,0,0"/>
+                                    <Setter Property="Foreground" Value="White"/>
+                                </Trigger>
+                            </ControlTemplate.Triggers>
+                        </ControlTemplate>
+                    </Setter.Value>
+                </Setter>
+            </Style>
+            <Style x:Key="TextCustom" TargetType="TextBox">
+                <Setter Property="Foreground" Value="#134187"/>
+                <Setter Property="FontSize" Value="14" />
+                <Setter Property="FontFamily" Value="{StaticResource LatoBold}" />
+                <Setter Property="FontStyle" Value="Normal"/>
+                <Setter Property="Padding" Value="10,7,0,10"/>
+                <Setter Property="Template">
+                    <Setter.Value>
+                        <ControlTemplate TargetType="TextBox">
+                            <Border Name="border" CornerRadius="5" BorderThickness="1" BorderBrush="#7394C4" Background="#F2F2F2">
+                                <ScrollViewer Margin="0" x:Name="PART_ContentHost" />
+                            </Border>
+                            
+                        </ControlTemplate>
                     </Setter.Value>
                 </Setter>
             </Style>

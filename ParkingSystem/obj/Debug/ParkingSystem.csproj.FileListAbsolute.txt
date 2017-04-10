@@ -22,27 +22,31 @@ C:\Users\libardoCuello\documents\visual studio 2015\Projects\ParkingSystem\Parki
 C:\Users\libardoCuello\documents\visual studio 2015\Projects\ParkingSystem\ParkingSystem\obj\Debug\ParkingSystem.csproj.GenerateResource.Cache
 C:\Users\libardoCuello\documents\visual studio 2015\Projects\ParkingSystem\ParkingSystem\obj\Debug\ParkingSystem.exe
 C:\Users\libardoCuello\documents\visual studio 2015\Projects\ParkingSystem\ParkingSystem\obj\Debug\ParkingSystem.pdb
-D:\Proyectos\C#\parking\ParkingSystem\obj\Debug\ParkingSystem.exe
-D:\Proyectos\C#\parking\ParkingSystem\obj\Debug\ParkingSystem.pdb
 D:\Proyectos\C#\parking\ParkingSystem\bin\Debug\ParkingSystem.exe
 D:\Proyectos\C#\parking\ParkingSystem\bin\Debug\ParkingSystem.pdb
-D:\Proyectos\C#\parking\ParkingSystem\bin\Debug\MySql.Data.xml
-D:\Proyectos\C#\parking\ParkingSystem\obj\Debug\ParkingSystem.csprojResolveAssemblyReference.cache
-D:\Proyectos\C#\parking\ParkingSystem\obj\Debug\Administrador.g.cs
+D:\Proyectos\C#\parking\ParkingSystem\obj\Debug\Pages\PageResidentes.g.cs
+D:\Proyectos\C#\parking\ParkingSystem\obj\Debug\Pages\PageVehiculos.g.cs
+D:\Proyectos\C#\parking\ParkingSystem\obj\Debug\Windows\Administrador.g.cs
 D:\Proyectos\C#\parking\ParkingSystem\obj\Debug\MainWindow.g.cs
-D:\Proyectos\C#\parking\ParkingSystem\obj\Debug\Vigilancia.g.cs
+D:\Proyectos\C#\parking\ParkingSystem\obj\Debug\Pages\PageUsuarios.g.cs
+D:\Proyectos\C#\parking\ParkingSystem\obj\Debug\Windows\Vigilancia.g.cs
 D:\Proyectos\C#\parking\ParkingSystem\obj\Debug\App.g.cs
 D:\Proyectos\C#\parking\ParkingSystem\obj\Debug\ParkingSystem_MarkupCompile.cache
 D:\Proyectos\C#\parking\ParkingSystem\obj\Debug\ParkingSystem_MarkupCompile.lref
 D:\Proyectos\C#\parking\ParkingSystem\obj\Debug\App.baml
-D:\Proyectos\C#\parking\ParkingSystem\obj\Debug\Administrador.baml
+D:\Proyectos\C#\parking\ParkingSystem\obj\Debug\Pages\PageResidentes.baml
+D:\Proyectos\C#\parking\ParkingSystem\obj\Debug\Pages\PageVehiculos.baml
+D:\Proyectos\C#\parking\ParkingSystem\obj\Debug\Windows\Administrador.baml
 D:\Proyectos\C#\parking\ParkingSystem\obj\Debug\MainWindow.baml
+D:\Proyectos\C#\parking\ParkingSystem\obj\Debug\Pages\PageUsuarios.baml
 D:\Proyectos\C#\parking\ParkingSystem\obj\Debug\Styles\Buttons.baml
 D:\Proyectos\C#\parking\ParkingSystem\obj\Debug\Styles\Colors.baml
 D:\Proyectos\C#\parking\ParkingSystem\obj\Debug\Styles\Fonts.baml
 D:\Proyectos\C#\parking\ParkingSystem\obj\Debug\Styles\Texts.baml
 D:\Proyectos\C#\parking\ParkingSystem\obj\Debug\Styles\Windows.baml
-D:\Proyectos\C#\parking\ParkingSystem\obj\Debug\Vigilancia.baml
+D:\Proyectos\C#\parking\ParkingSystem\obj\Debug\Windows\Vigilancia.baml
 D:\Proyectos\C#\parking\ParkingSystem\obj\Debug\ParkingSystem.g.resources
 D:\Proyectos\C#\parking\ParkingSystem\obj\Debug\ParkingSystem.Properties.Resources.resources
 D:\Proyectos\C#\parking\ParkingSystem\obj\Debug\ParkingSystem.csproj.GenerateResource.Cache
+D:\Proyectos\C#\parking\ParkingSystem\obj\Debug\ParkingSystem.exe
+D:\Proyectos\C#\parking\ParkingSystem\obj\Debug\ParkingSystem.pdb

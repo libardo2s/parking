@@ -1,0 +1,81 @@
+﻿<Page x:Class="ParkingSystem.PageUsuarios"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:ParkingSystem"
+      mc:Ignorable="d" 
+      d:DesignHeight="1024" d:DesignWidth="780"
+      Title="PUsuarios" >
+
+    <StackPanel>
+        <Grid Background="#134187" Height="138">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+            <Button Grid.Column="0" Height="40" Style="{DynamicResource menubutonlar}" VerticalAlignment="Bottom">
+                <DockPanel VerticalAlignment="Bottom">
+                    <Path Data="M8.715005,26.507996L26.367,26.507996 26.367,30.215996 8.715005,30.215996z M0,23.059998L3.5549961,23.059998 5.3779956,23.059998 5.3779956,32 0,32 0,30.218002 3.5560032,30.218002 3.5560032,28.417999 0,28.417999 0,26.639999 3.5560032,26.639999 3.5560032,24.839996 0,24.839996z M8.715005,13.865997L26.367,13.865997 26.367,17.575996 8.715005,17.575996z M0,10.602997L5.3779956,10.602997 5.3779956,16.053001 1.8149733,16.053001 1.8149733,17.723 5.3779956,17.723 5.3779956,19.579002 0,19.579002 0,14.203003 3.5560032,14.203003 3.5560032,12.456001 0,12.456001z M8.715005,1.223999L26.367,1.223999 26.367,4.9319992 8.715005,4.9319992z M0,0L3.5560032,0 3.5560032,7.0079956 1.7829909,7.0079956 1.7829909,1.8529968 0,1.8529968z" Stretch="Uniform" Fill="#FFFFFFFF" Width="24" Height="24" Margin="0,0,0,0" RenderTransformOrigin="0.5,0.5">
+                        <Path.RenderTransform>
+                            <TransformGroup>
+                                <TransformGroup.Children>
+                                    <RotateTransform Angle="0" />
+                                    <ScaleTransform ScaleX="1" ScaleY="1" />
+                                </TransformGroup.Children>
+                            </TransformGroup>
+                        </Path.RenderTransform>
+                    </Path>
+                    <TextBlock Margin="7,0,0,0" FontSize="16" FontFamily="{StaticResource LatoRegular}" HorizontalAlignment="Left" VerticalAlignment="Center" TextWrapping="Wrap" Foreground="#fff">Lista Usuarios</TextBlock>
+                </DockPanel>
+            </Button>
+            <Button Grid.Column="1" Height="40" Style="{DynamicResource menubutonlar}" VerticalAlignment="Bottom">
+                <DockPanel VerticalAlignment="Bottom">
+                    <Path Data="M20.53299,0L20.583008,11.763 32,11.763 32,20.442017 20.619995,20.442017 20.666992,31.963013 11.97699,32 11.927002,20.442017 0,20.442017 0,11.762024 11.895996,11.762024 11.842987,0.038024902z" Stretch="Uniform" Fill="#FFFFFFFF" Width="24" Height="24" Margin="0,0,0,0" RenderTransformOrigin="0.5,0.5">
+                        <Path.RenderTransform>
+                            <TransformGroup>
+                                <TransformGroup.Children>
+                                    <RotateTransform Angle="0" />
+                                    <ScaleTransform ScaleX="1" ScaleY="1" />
+                                </TransformGroup.Children>
+                            </TransformGroup>
+                        </Path.RenderTransform>
+                    </Path>
+                    <TextBlock Margin="7,0,0,0" FontSize="16" FontFamily="{StaticResource LatoRegular}" HorizontalAlignment="Left" VerticalAlignment="Center" TextWrapping="Wrap" Foreground="#fff">Agregar Usuario</TextBlock>
+                </DockPanel>
+            </Button>
+            <Button Grid.Column="2" Height="40" Style="{DynamicResource menubutonlar}" VerticalAlignment="Bottom">
+                <DockPanel>
+                    <Path Data="M3.3997434,22.001989L7.9999695,26.764826 7.9999695,22.001989z M16.362266,16.640196L16.129938,16.869006 15.510936,20.33301 18.937945,19.346009 19.062141,19.223697z M5.0069956,12L15.000996,12 15.000996,14 5.0069956,14z M23.762037,9.3524799L17.787971,15.23608 20.487872,17.819603 26.379948,12.016942z M5.0069998,8L16.999958,8 16.999958,10 5.0069998,10z M26.498966,6.6569958L25.186848,7.9492459 27.804781,10.613731 29.152973,9.2859983z M5.0070003,4L16.999958,4 16.999958,6 5.0070003,6z M2.8839929,2C2.6389937,2 2.4119945,2.0930004 2.2429948,2.2620001 2.0859954,2.4189997 1.9999957,2.625 1.9999955,2.842L2.033838,20.001986 9.999958,20.001986 9.999958,28 19.113941,28C19.60094,28,19.996939,27.623,19.996939,27.16L19.996939,21.110278 19.979948,21.12701 12.976929,23.146012 14.273932,15.890005 19.996939,10.254055 19.996939,2.8400002C19.996939,2.3769999,19.60094,2,19.113941,2z M2.8839929,0L19.113941,0C20.703936,0,21.996931,1.2740002,21.996931,2.8400002L21.996931,8.2844851 26.502966,3.8469934 31.999981,9.2899985 21.996931,19.140739 21.996931,27.16C21.996931,28.726,20.703936,30,19.113941,30L8.3439753,30 0.037002087,21.399 2.3841858E-06,2.8459997C-0.00099802017,2.0939999 0.29300117,1.3850002 0.82699966,0.84899998 1.3739977,0.30200005 2.1039953,0 2.8839929,0z" Stretch="Uniform" Fill="#FFFFFFFF" Width="24" Height="24" Margin="0,0,0,0" RenderTransformOrigin="0.5,0.5">
+                        <Path.RenderTransform>
+                            <TransformGroup>
+                                <TransformGroup.Children>
+                                    <RotateTransform Angle="0" />
+                                    <ScaleTransform ScaleX="1" ScaleY="1" />
+                                </TransformGroup.Children>
+                            </TransformGroup>
+                        </Path.RenderTransform>
+                    </Path>
+                    <TextBlock Margin="7,0,0,0" FontSize="16" FontFamily="{StaticResource LatoRegular}" HorizontalAlignment="Left" VerticalAlignment="Center" TextWrapping="Wrap" Foreground="#fff">Modificar Usuario</TextBlock>
+                </DockPanel>
+            </Button>
+            <Button Grid.Column="3" Height="40" Style="{DynamicResource menubutonlar}" VerticalAlignment="Bottom">
+                <DockPanel>
+                    <Path Data="M21.170904,20.171999C21.426796,20.171999,21.682809,20.269743,21.878318,20.465232L23.999967,22.586675 26.121605,20.465232C26.512622,20.074255 27.145689,20.074255 27.535699,20.465232 27.926715,20.855232 27.926715,21.488204 27.535699,21.87918L25.414057,24.000627 27.535699,26.122063C27.926715,26.513039 27.926715,27.145034 27.535699,27.536011 27.340679,27.731011 27.08465,27.828969 26.828652,27.828969 26.572624,27.828969 26.316595,27.731011 26.121605,27.536011L23.999971,25.414583 21.878348,27.536011C21.683328,27.731011 21.4273,27.828969 21.171302,27.828969 20.915273,27.828969 20.659244,27.731011 20.464255,27.536011 20.073208,27.145034 20.073208,26.513039 20.464255,26.122063L22.585881,24.000631 20.464224,21.87918C20.073208,21.488204 20.073208,20.855232 20.464224,20.465232 20.659244,20.269743 20.915013,20.171999 21.170904,20.171999z M6.000001,19.999999L13,19.999999C13.552001,19.999999 14,20.447999 14,20.999999 14,21.551999 13.552001,21.999999 13,21.999999L6.000001,21.999999C5.4480009,21.999999 5.000001,21.551999 5.000001,20.999999 5.000001,20.447999 5.4480009,19.999999 6.000001,19.999999z M23.985995,18C20.669999,17.999999 17.971003,20.690999 17.971003,23.999999 17.971003,27.308999 20.669999,29.999999 23.985995,29.999999 27.30199,29.999999 29.999987,27.308999 29.999987,23.999999 29.999987,20.690999 27.30199,17.999999 23.985995,18z M6.000001,15.999999L15,15.999999C15.552001,15.999999 16,16.447999 16,17 16,17.551999 15.552001,17.999999 15,18L6.000001,18C5.4480009,17.999999 5.000001,17.551999 5.000001,17 5.000001,16.447999 5.4480009,15.999999 6.000001,15.999999z M6.000001,11.999999L18,11.999999C18.552001,11.999999 19.000001,12.447999 19.000001,12.999999 19.000001,13.551999 18.552001,13.999999 18,13.999999L6.000001,13.999999C5.4480009,13.999999 5.000001,13.551999 5.000001,12.999999 5.000001,12.447999 5.4480009,11.999999 6.000001,11.999999z M17,3.4139996L17,7.0319901 20.617991,7.0319901z M2,2L2,29.999999 18.693327,29.999999 18.599899,29.919196C16.985891,28.454697 15.971006,26.343343 15.971006,23.999999 15.971006,20.278218 18.531045,17.14163 21.985448,16.25231L22.000001,16.248949 22.000001,9.0319881 15,9.0319881 15,2z M2,0L16.414001,0 24.000001,7.5859995 24.000001,16.000176 24.192521,16.002617C28.516454,16.112356 31.999984,19.657921 31.999984,23.999999 31.999984,28.342077 28.516454,31.887642 24.192521,31.997381L24.000001,31.999822 23.985995,31.999999 2,31.999999C0.89700127,31.999999,0,31.102999,0,29.999999L0,2C0,0.89699936,0.89700127,0,2,0z" Stretch="Uniform" Fill="#FFFFFFFF" Width="24" Height="24" Margin="0,0,0,0" RenderTransformOrigin="0.5,0.5">
+                        <Path.RenderTransform>
+                            <TransformGroup>
+                                <TransformGroup.Children>
+                                    <RotateTransform Angle="0" />
+                                    <ScaleTransform ScaleX="1" ScaleY="1" />
+                                </TransformGroup.Children>
+                            </TransformGroup>
+                        </Path.RenderTransform>
+                    </Path>
+                    <TextBlock Margin="7,0,0,0" FontSize="16" FontFamily="{StaticResource LatoRegular}" HorizontalAlignment="Left" VerticalAlignment="Center" TextWrapping="Wrap" Foreground="#fff">Eliminar Usuario</TextBlock>
+                </DockPanel>
+            </Button>
+        </Grid>
+    </StackPanel>
+</Page>

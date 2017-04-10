@@ -59,15 +59,32 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Administrador.xaml.cs">
+    <Compile Include="Pages\PageResidentes.xaml.cs">
+      <DependentUpon>PageResidentes.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageVehiculos.xaml.cs">
+      <DependentUpon>PageVehiculos.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Windows\Administrador.xaml.cs">
       <DependentUpon>Administrador.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PageUsuarios.xaml.cs">
+      <DependentUpon>PageUsuarios.xaml</DependentUpon>
     </Compile>
     <Compile Include="Utilities\Helper.cs" />
     <Compile Include="Utilities\WebCam.cs" />
-    <Compile Include="Vigilancia.xaml.cs">
+    <Compile Include="Windows\Vigilancia.xaml.cs">
       <DependentUpon>Vigilancia.xaml</DependentUpon>
     </Compile>
-    <Page Include="Administrador.xaml">
+    <Page Include="Pages\PageResidentes.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\PageVehiculos.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Windows\Administrador.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -84,6 +101,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Pages\PageUsuarios.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Styles\Buttons.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -104,7 +125,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Vigilancia.xaml">
+    <Page Include="Windows\Vigilancia.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

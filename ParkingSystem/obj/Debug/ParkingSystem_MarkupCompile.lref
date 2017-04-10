@@ -1,11 +1,14 @@
 ﻿
 FD:\Proyectos\C#\parking\ParkingSystem\App.xaml;;
-FD:\Proyectos\C#\parking\ParkingSystem\Administrador.xaml;;
+FD:\Proyectos\C#\parking\ParkingSystem\Pages\PageResidentes.xaml;;
+FD:\Proyectos\C#\parking\ParkingSystem\Pages\PageVehiculos.xaml;;
+FD:\Proyectos\C#\parking\ParkingSystem\Windows\Administrador.xaml;;
 FD:\Proyectos\C#\parking\ParkingSystem\MainWindow.xaml;;
+FD:\Proyectos\C#\parking\ParkingSystem\Pages\PageUsuarios.xaml;;
 FD:\Proyectos\C#\parking\ParkingSystem\Styles\Buttons.xaml;;
 FD:\Proyectos\C#\parking\ParkingSystem\Styles\Colors.xaml;;
 FD:\Proyectos\C#\parking\ParkingSystem\Styles\Fonts.xaml;;
 FD:\Proyectos\C#\parking\ParkingSystem\Styles\Texts.xaml;;
 FD:\Proyectos\C#\parking\ParkingSystem\Styles\Windows.xaml;;
-FD:\Proyectos\C#\parking\ParkingSystem\Vigilancia.xaml;;
+FD:\Proyectos\C#\parking\ParkingSystem\Windows\Vigilancia.xaml;;
 

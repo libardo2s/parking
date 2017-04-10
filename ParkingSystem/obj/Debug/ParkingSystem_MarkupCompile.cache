@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 D:\Proyectos\C#\parking\ParkingSystem\App.xaml
-81990235225
+11-276977811
 
-10511357544
+131636776766
 16-1499102134
-Administrador.xaml;MainWindow.xaml;Styles\Buttons.xaml;Styles\Colors.xaml;Styles\Fonts.xaml;Styles\Texts.xaml;Styles\Windows.xaml;Vigilancia.xaml;
+Pages\PageResidentes.xaml;Pages\PageVehiculos.xaml;Windows\Administrador.xaml;MainWindow.xaml;Pages\PageUsuarios.xaml;Styles\Buttons.xaml;Styles\Colors.xaml;Styles\Fonts.xaml;Styles\Texts.xaml;Styles\Windows.xaml;Windows\Vigilancia.xaml;
 
 False
 
