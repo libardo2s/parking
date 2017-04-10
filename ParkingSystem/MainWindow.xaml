@@ -50,7 +50,7 @@
                     <TextBox x:Name="texPassword" Text="" Width="350" Height="35" Margin="7,2,0,0" Style="{StaticResource TextCustom}"></TextBox>
                 </StackPanel>
             </StackPanel>
-            <Button x:Name="button" Style="{StaticResource buttonCustom}" Click="LoginButton" Height="35" Margin="250,10,50,0">
+            <Button x:Name="button" Style="{StaticResource buttonCustom}" Click="LoginButton" Height="35" Margin="250,10,54,0">
                 <TextBlock FontSize="16" FontFamily="{StaticResource LatoBold}" HorizontalAlignment="Left" VerticalAlignment="Center" TextWrapping="Wrap" Foreground="#fff">Ingresar</TextBlock>
             </Button>
         </StackPanel>
